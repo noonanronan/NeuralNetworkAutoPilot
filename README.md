@@ -11,9 +11,9 @@ The project's neural network was trained using three key features: the plane's Y
 
 ## Neural Network Architecture
 The neural network is designed with simplicity and efficiency in mind, suitable for real-time control tasks. It consists of:
-*Input Layer: 3 nodes, capturing the plane's position and obstacle proximity.
-*Hidden Layers: Two layers, the first with 64 nodes and the second with 32 nodes, employing ReLU activation functions for non-linear transformation.
-*Output Layer: 3 nodes, utilizing a SoftMax activation function to classify the plane's next move (up, stay, or down).
+* Input Layer: 3 nodes, capturing the plane's position and obstacle proximity.
+* Hidden Layers: Two layers, the first with 64 nodes and the second with 32 nodes, employing ReLU activation functions for non-linear transformation.
+* Output Layer: 3 nodes, utilizing a SoftMax activation function to classify the plane's next move (up, stay, or down).
 
 ## Training and Performance
 The network was trained using a dataset derived from manual gameplay, employing resilient propagation with improvement strategy adjustments. The training goal was achieved in under a minute, showcasing the network's ability to learn effective navigation strategies swiftly.
